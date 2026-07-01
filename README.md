@@ -1,15 +1,15 @@
 # Travel Tracker SQL
 
-Este projeto usa SQL para acompanhar minhas experiências e adaptacões culturais.
+A simple project that uses SQL to track my travel experiences and cultural adaptations.
 
-## Estrutura do Projeto
-- O arquivo `database.sql` cria as tabelas e adiciona os dados.
-- O arquivo `queries.sql` contém as perguntas que eu fiz aos dados.
+## Project Structure
+- The `database.sql` file creates the tables and adds sample data.
+- The `queries.sql` file contains the questions I asked to the data.
 
-## O que este projeto mostra
-- Como criar tabelas
-- Como adicionar dados às tabelas
-- Como fazer perguntas aos dados
+## What This Project Demonstrates
+- Creating SQL tables
+- Inserting data into tables
+- Asking questions to the data with queries
 
-## Por que este projeto é importante
-Este é um projeto real sobre minha própria vida, mostrando como usar SQL para entender melhor minhas experiencias.
+## Why This Project Matters
+This is a personal project about my own life, showing how to use SQL to better understand real experiences.
