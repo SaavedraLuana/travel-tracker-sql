@@ -32,3 +32,7 @@ WHERE
     
 ORDER BY 
     "Date";
+-- QUESTION 4: What were my most memorable cultural experiences?
+SELECT experience_name, city, experience_date, feeling_at_moment
+FROM CulturalExperiences
+ORDER BY experience_date DESC;
