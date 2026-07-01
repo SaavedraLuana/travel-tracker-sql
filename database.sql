@@ -35,3 +35,16 @@ INSERT INTO Habits (id, habit_description, date, new_habit) VALUES
 (3, 'Drank coffee in the afternoon', '2023-02-25', FALSE),
 (4, 'Took a walk after lunch', '2023-03-10', TRUE),
 (5, 'Used public transport daily', '2023-03-15', TRUE);
+-- Create a new table for special cultural experiences
+CREATE TABLE CulturalExperiences (
+    id INTEGER PRIMARY KEY,
+    experience_name VARCHAR(255) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    experience_date DATE NOT NULL,
+    feeling_at_moment VARCHAR(255) -- How you felt
+);
+
+-- Add your London experience
+INSERT INTO CulturalExperiences (id, experience_name, city, experience_date, feeling_at_moment) VALUES
+(1, 'BTS Concert at Wembley Stadium with host kid', 'London', '2019-06-12', 'Excited and connected');
+
